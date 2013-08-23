@@ -54,6 +54,7 @@ GEM
     minitest (4.7.5)
     multi_json (1.7.9)
     nokogiri (1.5.9-x86-mingw32)
+    pg (0.15.1-x86-mingw32)
     polyglot (0.3.3)
     rack (1.5.2)
     rack-test (0.6.2)
@@ -129,6 +130,7 @@ DEPENDENCIES
   coffee-rails (~> 4.0.0)
   jbuilder (~> 1.2)
   jquery-rails
+  pg
   rails (= 4.0.0)
   rspec (= 2.0.1)
   rspec-rails (= 2.0.1)
