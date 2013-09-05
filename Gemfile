@@ -12,7 +12,10 @@ gem 'pg'
 
 group :development do
 	gem 'rspec-rails', '2.14.0'
+	gem 'annotate'
 end
+
+gem 'protected_attributes'
 
 group :test do
 	gem 'autotest', '4.4.6'
