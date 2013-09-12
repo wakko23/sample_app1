@@ -10,6 +10,8 @@ end
 
 gem 'pg'
 
+gem 'gravatar_image_tag', '1.1.3'
+
 group :development do
 	gem 'rspec-rails', '2.14.0'
 	gem 'annotate'
@@ -21,6 +23,7 @@ group :test do
 	gem 'autotest', '4.4.6'
 	gem 'rspec', '2.14.1'
 	gem 'webrat', '0.7.3'
+	gem 'factory_girl_rails', '4.2.1'
 end
 
 # Use SCSS for stylesheets
