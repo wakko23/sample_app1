@@ -1,5 +1,13 @@
 SampleApp1::Application.routes.draw do
- 	get "users/new"
+  get "sessions/new"
+	resources :users
+	resources :sessions, :only => [:new, :create, :destroy]
+
+	get '/signup', :to => 'users#new'
+	get '/signup', :to => 'sessions#new'
+	get '/signup', :to => 'sessions#destroy'
+
+ 	get 'users/new'
 
 	get '/signup', :to => 'users#new'
 
